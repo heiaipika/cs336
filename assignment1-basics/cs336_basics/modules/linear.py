@@ -6,8 +6,8 @@ class Linear(nn.Module):
         self,
         in_features,
         out_features,
-        device:torch.device|None=None,
-        dtype:torch.dtype|None=None,
+        device:torch.device | None=None,
+        dtype:torch.dtype | None=None,
         bias:bool=False,
     ):
         super().__init__()
